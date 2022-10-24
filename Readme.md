@@ -41,4 +41,12 @@ Instead of using default schema created our own schemas.
 
 ![img_3.png](img_3.png)
 
+# Bonus Tip
+
+If you want to create your own table names for authentication(Instead of users, authorities in **schema.sql**) you need to modify/add some statements for db lookup in config method
+of AuthenticationManagerBuilder.
+
+![img_4.png](img_4.png)
+
+
 [For More Details Click Here... 😊😊😊](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/jdbc.html#servlet-authentication-jdbc)
