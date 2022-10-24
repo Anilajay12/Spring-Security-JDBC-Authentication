@@ -9,6 +9,8 @@
 * Select Generate option and it will download the file
 * Extract the downloaded file and open in your IDE (Intellij, Spring Tool Suite, Eclipse, Net Beans etc..)
 
+* Create the Resource File (API End points). In my case I have created "**Home Resource**" Class.
+
 # Spring Security Configuration
 
 -> Create a Security Configuration Class
