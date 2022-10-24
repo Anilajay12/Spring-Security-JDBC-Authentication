@@ -1,4 +1,4 @@
-# Spring-Security-JDBC-Authentication
+# Spring-Security-JDBC-Authentication 
 
 * Create a new Project using [Spring Initializer Website](http://start.spring.io)
 * Enter the Project Configuration Details
@@ -28,3 +28,17 @@ authenticate the users using Jdbc DB Authentication and data source is by defaul
 ![img_2.png](img_2.png)
 
 -> Run the application.
+
+# JDBC Authentication Creation
+
+Instead of using default schema created our own schemas.
+
+-> Create a schema.sql under resources folder and type your **DDL Statements** It will be executed when the application is starting
+
+-> Create a data.sql under resources folder and write your "**DML Statements**" It will be executed during runtime and result will be stored in database.
+
+*** Updated Config Method AuthenticationManagerBuilder for JDBC Authentication ***
+
+![img_3.png](img_3.png)
+
+[For More Details Click Here... 😊😊😊](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/jdbc.html#servlet-authentication-jdbc)
